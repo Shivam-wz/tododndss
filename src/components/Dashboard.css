@@ -1,0 +1,23 @@
+/* src/components/Dashboard.css */
+.dashboard {
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.dashboard-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
